@@ -6,10 +6,10 @@ using namespace std;
 #define S second
 
 using P = pair<int, int>; // P: Point (x, y)
-struct I {                 // I: Info
-    P p;                   // p: point
-    P d;                   // d: direction
-    int dist;              // distance
+struct I {                // I: Info
+    P p;                  // p: point
+    P d;                  // d: direction
+    int dist;             // distance
 };
 
 // pair operator overloading
